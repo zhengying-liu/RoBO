@@ -8,8 +8,7 @@ logging.basicConfig(level=logging.INFO)
 
 from robo.fmin import fabolas
 
-from hpolib.benchmarks.ml.svm_benchmark import SvmOnMnist, SvmOnVehicle, SvmOnCovertype, SvmOnAdult, SvmOnHiggs, SvmOnLetter
-from hpolib.benchmarks.ml.residual_networks import ResidualNeuralNetworkOnCIFAR10
+from hpolib.benchmarks.ml.svm_benchmark import SvmOnMnist, SvmOnVehicle, SvmOnCovertype
 from hpolib.benchmarks.ml.conv_net import ConvolutionalNeuralNetworkOnCIFAR10, ConvolutionalNeuralNetworkOnSVHN
 
 
