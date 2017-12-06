@@ -1,0 +1,6 @@
+DIRECT
+george
+emcee
+cma
+scipy >= 0.12
+numpy >= 1.7
